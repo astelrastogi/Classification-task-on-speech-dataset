@@ -13,3 +13,5 @@ spectrogramer.py - Creates images of the 2000 recordings.
 fsdd.py - Interprets the images and predicts the digit.
 
 The test set officially consists of the first 10% of the recordings. Recordings numbered 0-4 (inclusive) are in the test and 5-49 are in the training set.
+
+The d_h file contains the final code and calls the get_spectrograms function to give the result. 97% accuracy on test set.
